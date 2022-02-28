@@ -1,0 +1,85 @@
+
+
+html{
+  scroll-behavior: smooth;
+
+}
+
+body{
+  font-family: "Didot", monospace;
+  background-image: url(https://giegroup.net/wp-content/uploads/2020/10/Background0001.jpg);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.content{
+  color: white;
+}
+
+
+/* The side navigation menu */
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 20vh;
+  background-color: black;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+#logo{
+  height: 20vh;
+  width: 20vh;
+}
+
+.link{
+
+  text-align: center;
+}
+
+/* Sidebar links */
+.sidebar .link {
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+}
+
+/* Active/current link */
+.sidebar .link.active {
+  color: #0cfff4;
+}
+
+/* Links on mouse-over */
+.sidebar .link:hover:not(.active) {
+ 
+  color: #0cfff4;
+}
+
+
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+
+.fab{
+  font-size: 1.25rem;
+  color: white;
+}
+
