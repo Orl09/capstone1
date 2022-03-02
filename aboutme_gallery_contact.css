@@ -1,3 +1,5 @@
+
+
 html{
   scroll-behavior: smooth;
 
@@ -5,11 +7,10 @@ html{
 
 body{
   font-family: 'League Gothic', sans-serif;
-  background-image: url(https://static.vecteezy.com/system/resources/previews/002/635/301/original/digital-technology-and-engineering-digital-telecoms-concept-hi-tech-futuristic-technology-background-illustration-vector.jpg);
+  background-image: url(https://giegroup.net/wp-content/uploads/2020/10/Background0001.jpg);
   background-attachment: fixed;
   background-size: 100% 100%;
 }
-
 
 #my_logo{
   height: 20vh;
@@ -26,7 +27,7 @@ body{
   text-transform: uppercase;
   color: #04d9ff;
   font-weight: bold;
-  font-size: 2.8vh;
+  font-size: 5vh;
 }
 
 .sidenav {
@@ -51,6 +52,7 @@ body{
   color: white;
   display: block;
   transition: 0.3s;
+  font-family: 'League Gothic', sans-serif;
 }
 
 .sidenav a:hover {
@@ -77,16 +79,39 @@ body{
   .sidenav a {font-size: 18px;}
 }
 
-#gradient h1{
-  text-transform: uppercase;
-  background: linear-gradient(#30CFD0 0%, #330867 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 8vh;
-  font-family: 'Lobster', cursive;
-  }
+#contactlogo{
+  height: 10vh;
+  width: 10vh;
+}
 
-p{
-  font-size: 3.5vh;
-  text-align: justify;
+.fab{
+
+}
+
+
+#banner {
+  background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/04/Free-Website-BAckgrounds1.jpg);
+  /*stretches the  image to cover the whole element*/
+  background-size: cover;
+  /*used to select a part of the image that will be used for the cover*/
+  background-position: center;
+}
+
+
+
+.card-header{
+  color: #04d9ff;
+ font-family: 'Lobster', cursive;
+}
+
+.card-body{
+  font-size: 4vh;
+  width: 100%;
+
+}
+
+#contact{
+  height: 70vh;
+ font-size: 2rem;
+  color: white;
 }
