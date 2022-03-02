@@ -5,7 +5,8 @@ html{
 
 body{
   font-family: 'League Gothic', sans-serif;
-  background-image: url(https://static.vecteezy.com/system/resources/previews/002/635/301/original/digital-technology-and-engineering-digital-telecoms-concept-hi-tech-futuristic-technology-background-illustration-vector.jpg);
+  background-image: url(https://giegroup.net/wp-content/uploads/2020/10/Background0001.jpg);
+
   background-attachment: fixed;
   background-size: 100% 100%;
 }
@@ -89,4 +90,9 @@ body{
 p{
   font-size: 3.5vh;
   text-align: justify;
+}
+
+#text{
+
+  background: rgba(128, 128, 128, 0.6);
 }
